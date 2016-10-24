@@ -5,7 +5,10 @@
   "description": "{{ description }}",
   "dependencies": {
     "react": "15.3.2",
-    "react-dom": "15.3.2"
+    "react-dom": "15.3.2",
+    "whatwg-fetch": "^1.0.0",
+    "promise": "^7.1.1",
+    "object-assign": "^4.1.0"
   },
   "devDependencies": {
     {{#lint}}
