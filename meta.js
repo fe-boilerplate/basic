@@ -70,5 +70,5 @@ module.exports = {
     "test/unit/**/*": "unit",
     "test/e2e/**/*": "e2e"
   },
-  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install (or yarn)\n  fe dev\n\nMore infomation: fe -h"
+  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  fe dev\n\nMore infomation: fe -h"
 };
