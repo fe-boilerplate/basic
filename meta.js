@@ -70,5 +70,5 @@ module.exports = {
     "test/unit/**/*": "unit",
     "test/e2e/**/*": "e2e"
   },
-  "completeMessage": "\n\n  cd {{destDirName}} && fe dev\n\n"
+  "completeMessage": "cd {{destDirName}} && fe dev"
 };
