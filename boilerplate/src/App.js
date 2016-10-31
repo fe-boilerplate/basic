@@ -11,7 +11,7 @@ class App extends Component {
     // await alert(123)
   }
   componentDidMount () {
-    fetch('/task-list')
+    fetch('/_mock/task-list')
       .then(res => res.json())
       .then(mockData => this.setState(Object.assign({}, this.state, { mockData })))
   }

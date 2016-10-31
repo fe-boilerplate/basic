@@ -1,0 +1,15 @@
+{
+  "TITLE": "PAGE_TITLE",
+  "HOST": "localhost",
+  "HTTPS": false,
+  "DEV_SERVER_PORT": 3000,
+  "MOCK_PREFIX": "/_mock",
+  "PROXY": {
+    "/api": {
+      "target": "http://localhost:3000/",
+      "pathRewrite": {
+        "^/api": "/_mock"
+      }
+    }
+  }
+}
