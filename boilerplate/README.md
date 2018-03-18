@@ -2,6 +2,8 @@
 
 {{ description }}
 
+> psm: {{ psm }}
+
 ### 0.0 线上入口
 
 - http://???

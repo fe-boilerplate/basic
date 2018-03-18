@@ -12,11 +12,13 @@ module.exports = {
     "name": {
       "type": "string",
       "required": true,
-      "message": "Project name"
+      "message": "Project name",
+      "default": "example"
     },
     "psm": {
       "type": "string",
       "required": true,
+      "default": "xx.xx.xx",
       "message": "psm identifier"
     },
     "description": {
