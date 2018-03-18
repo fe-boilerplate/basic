@@ -14,6 +14,11 @@ module.exports = {
       "required": true,
       "message": "Project name"
     },
+    "psm": {
+      "type": "string",
+      "required": true,
+      "message": "psm identifier"
+    },
     "description": {
       "type": "string",
       "required": false,
@@ -23,40 +28,6 @@ module.exports = {
     "author": {
       "type": "string",
       "message": "Author"
-    },
-    "lint": {
-      "type": "confirm",
-      "message": "Use ESLint to lint your code?"
-    },
-    "lintConfig": {
-      "when": "lint",
-      "type": "list",
-      "message": "Pick an ESLint preset",
-      "choices": [
-        {
-          "name": "Standard (https://github.com/feross/standard)",
-          "value": "standard",
-          "short": "Standard"
-        },
-        {
-          "name": "AirBNB (https://github.com/airbnb/javascript)",
-          "value": "airbnb",
-          "short": "AirBNB"
-        },
-        {
-          "name": "none (configure it yourself)",
-          "value": "none",
-          "short": "none"
-        }
-      ]
-    },
-    "unit": {
-      "type": "confirm",
-      "message": "Setup unit tests with Karma + Mocha?"
-    },
-    "immutable": {
-      "type": "confirm",
-      "message": "Use immutable?"
     },
     "redux": {
       "type": "confirm",

@@ -3,36 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "description": "{{ description }}",
-  "dependencies": {
-    "react": "15.3.2",
-    "react-dom": "15.3.2"
-  },
-  "devDependencies": {
-    {{#lint}}
-    "standard": "^8.1.0",
-    "babel-eslint": "^7.0.0"
-    {{/lint}}
-  },
-  {{#if_eq lintConfig "standard"}}
-  "standard": {
-    "parser": "babel-eslint",
-    "global": [
-      "fetch",
-      "alert"
-    ],
-    "ignore": [
-      "bin/",
-      "lib/",
-      "mock/",
-      "example/dist/",
-      "node_modules/"
-    ]
-  },
-  {{/if_eq}}
+  "main": "index.js",
   "scripts": {
-    "start": "fe dev",
     "dev": "fe dev",
+    "start": "fe start",
     "build": "fe build",
     "test": "fe test"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "postcss-px-to-viewport": "^0.0.3",
+    "postcss-viewport-units": "^0.1.4",
+    "prettier": "^1.10.2"
   }
 }
