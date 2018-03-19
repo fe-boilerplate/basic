@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>{{hi}} {{data.hello}}</h1>
-    <h2>SSR: {{server}}</h2>
-    <p>{{userAgent}}</p>
+    <h1>\{\{hi\}\} \{\{data.hello\}\}</h1>
+    <h2>SSR: \{\{server\}\}</h2>
+    <p>\{\{userAgent\}\}</p>
     <div class="box">
       box
     </div>
@@ -43,8 +43,5 @@ h1
   width 100px
   height 100px
   background #eee
-  // background #f00
   font-size 50px
-  // color var(--mainColor)
-  // background white svg(square param(--color #f00))
 </style>
