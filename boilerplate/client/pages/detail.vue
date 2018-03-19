@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>\{\{hi\}\} \{\{data.hello\}\}</h1>
-    <h2>SSR: \{\{server\}\}</h2>
-    <p>\{\{userAgent\}\}</p>
+    <h1>\{{hi}} \{{data.hello}}</h1>
+    <h2>SSR: \{{server}}</h2>
+    <p>\{{userAgent}}</p>
     <div class="box">
       box
     </div>
